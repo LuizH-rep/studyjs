@@ -1,0 +1,27 @@
+#mybox{
+    height: 70px;
+    width: 70px;
+  border-radius: 15px;
+
+background-color: lightgreen;
+display: flex;
+
+justify-content: center;
+align-items: center;
+}
+
+#up{
+     position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px 16px;
+  font-size: 16px;
+  background-color: lightgreen;
+  color: rgb(0, 0, 0);
+  border: 1px solid;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none; /* começa escondido */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
